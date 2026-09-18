@@ -7,7 +7,7 @@
 
 
 body {
-  background: linear-gradient(0deg, #f7f7f7 24%, #fcdddd 92%);
+  background: linear-gradient(0deg, #f7f7f7 24%, #304539 92%);
   font-family: 'Lato', sans-serif;
   margin: 0;
   height: 100vh;
@@ -18,17 +18,20 @@ body {
 }
 
 
-
+h4 {
+  color:#21352f;
+}
 
 h1 {
   margin-bottom: 20px;
+  color: white;
 }
 
 
 .music-container {
   background: #fff;
   border-radius: 15px;
-  box-shadow: 0 20px 20px rgba(252, 169, 169, 0.6);
+  box-shadow: 0 20px 20px rgba(51, 71, 60, 0.6);
   display: flex;
   align-items: center;
   padding: 20px 30px;
@@ -61,12 +64,10 @@ h1 {
   animation-play-state: running;
 }
 
-
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
 
 .music-info {
   background: rgba(255, 255, 255, 0.5);
@@ -100,7 +101,7 @@ h1 {
 
 
 .progress {
-  background: #fe8daa;
+  background: #21352f;
   height: 100%;
   width: 0%;
   border-radius: 5px;
