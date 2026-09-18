@@ -11,7 +11,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 
-const songs = ['go', 'silvera', 'nabakov'];
+const songs = ['Go', 'Silvera', 'Nabakov'];
 let songIndex = 2;
 
 
